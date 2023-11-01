@@ -1,14 +1,27 @@
+let rightAnswer = 0;
+let life=5;
+
+function updateRightAnswer() {
+    rightAnswer++;
+    document.getElementById("rightAnswerSpan").textContent = rightAnswer;
+}
+
+function LooseAHeart(){
+    life--;
+}
+
 function showSuccessPopup() {
+    updateRightAnswer();
     const modal = document.getElementById("successPopup");
     modal.style.display = "block";
 }
 
-
-function closeSuccessPopup() {
-    const modal = document.getElementById("successPopup");
-    modal.style.display = "none";
+function showLoosePopup() {
+    const modal = document.getElementById("LoosePopup");
+    modal.style.display = "block";
 }
 
-function showFailPopup() {
-    alert("Bonne réponse ! Passons au pays suivant.");
+function closePopup(element) {
+    const modal = document.getElementById(element);
+    modal.style.display = "none";
 }

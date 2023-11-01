@@ -13,8 +13,10 @@
 <body>
     <main>
         <div id="hompage">
+            
+            <p>Number of right answer: <span id="rightAnswerSpan"></span></p>
             <h1>Which country is it ?</h1>
-            <img>
+            <img src="<?php echo $flagImageUrl; ?>">
 
             <form action="" method="post">
                 <label for="answer">Entrez quelque chose :</label>
@@ -24,8 +26,14 @@
 
             <div id="successPopup" class="modal">
             <div class="modal-content">
-                <span class="close-btn" onclick="closeSuccessPopup()">&times;</span>
+                <span class="close-btn" onclick="closePopup(successPopup)">&times;</span>
                 Bonne réponse ! Passons au pays suivant.
+            </div>
+
+            <div id="LoosePopup" class="modal">
+            <div class="modal-content">
+                <span class="close-btn" onclick="closePopup(LoosePopup)">&times;</span>
+                Pas de chance ! Vous n'avez plus de vie.
             </div>
     </div>
         </div>
