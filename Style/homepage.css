@@ -1,0 +1,32 @@
+body {
+    background-image: url("image/map.jpg");
+    display: flex;
+    flex-direction: column;  /* oriente le contenu verticalement */
+    min-height: 100vh;  /* prend au moins toute la hauteur de la fenêtre */
+}
+
+header {
+    flex-direction: row;
+    justify-content: end;
+    display: flex; 
+}
+
+main {  /* cette règle est ajoutée pour le nouveau conteneur 'main' */
+    flex: 1;  /* prend tout l'espace disponible, repoussant le footer vers le bas */
+    display: flex;
+    flex-direction: column;  /* oriente le contenu verticalement */
+}
+
+#footer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    display: flex;
+}
+
+#homepage {
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
