@@ -22,7 +22,7 @@ Welcome to the **Guess Country Game**! This is a simple web-based game where use
 
 1. Clone the repository to your local machine:
     ```bash
-    git clone https://github.com/yourusername/guess-country-game.git
+    git clone https://github.com/johannvig/guess-country-game.git
     ```
 
 2. Move the project directory to your web server's root directory. For XAMPP, it would be `C:\xampp\htdocs\`:
