@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+    padding: 20px; /* Ensure there's padding for smaller screens */
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 600px; /* Ensure it doesn't exceed a certain width */
+    overflow: auto; /* Allow scrolling if needed */
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.progress-score {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.flag-container {
+    margin-bottom: 30px;
+}
+
+.flag-container img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 35px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    list-style-type: none; /* Remove list bullets */
+    padding: 0; /* Remove default padding */
+}
+
+.options li {
+    margin-bottom: 30px; /* Increase space between options */
+}
+
+.options label {
+    background-color: #f8f8f8;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px; /* Ensure options don't stretch too wide */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    text-align: left;
+}
+
+.options label:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.05);
+}
+
+.submit-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 20px; /* Add space above the button */
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.submit-button:active {
+    background-color: #003d80;
+    transform: scale(0.95);
+}

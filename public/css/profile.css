@@ -1,0 +1,106 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+    padding: 20px; /* Ensure there's padding for smaller screens */
+}
+
+.profile-container {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px; /* Ensure it doesn't exceed a certain width */
+    text-align: center;
+    overflow: auto; /* Allow scrolling if needed */
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #007BFF;
+    
+}
+
+.stats h2, .form-container h2 {
+    color: #007BFF;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.stats {
+    margin-top: 20px;
+}
+
+.stats table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.stats th, .stats td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.stats th {
+    background-color: #f8f8f8;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.change-password-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.change-password-button:hover {
+    background-color: #0056b3;
+}
+
+p a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
