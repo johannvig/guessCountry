@@ -93,4 +93,20 @@ Welcome to the **Guess Country Game**! This is a simple web-based game where use
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
+![image](https://github.com/user-attachments/assets/5538171f-6c08-4708-bec9-230fa256eec9)
+![image](https://github.com/user-attachments/assets/417d1c37-19a3-4b53-ab36-d269af325e2d)
+![image](https://github.com/user-attachments/assets/d5e54977-2cb6-491c-b34c-5c69c749c0ab)
+![image](https://github.com/user-attachments/assets/53ba2d76-896c-43b6-a048-a96defeabbf0)
+![image](https://github.com/user-attachments/assets/5fad9587-d613-4fda-853f-ac5d2a4734fd)
+![image](https://github.com/user-attachments/assets/fc8a4f0a-8239-4a2e-b625-6c7d8f52ab9d)
+![image](https://github.com/user-attachments/assets/f11d8868-2cea-4030-a853-08b4c3fe531f)
+![image](https://github.com/user-attachments/assets/5a082857-97b4-42d1-bffd-5ad1d535d2be)
+![image](https://github.com/user-attachments/assets/82a1adcd-4711-4bd5-96c7-07087d89dcfb)
+![image](https://github.com/user-attachments/assets/4bc8634c-d820-4b90-8ecb-0248c61a919a)
+
+
+
+
+
+
 
