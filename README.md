@@ -47,14 +47,6 @@ Welcome to the **Guess Country Game**! This is a simple web-based game where use
 2. Once logged in, choose a game mode from the menu.
 3. Follow the prompts to guess the correct answers based on the selected game mode.
 
-## Game Modes
-
-- **Guess the Flag**: Identify the country based on its flag.
-- **Guess the Currency**: Identify the currency used by the country.
-- **Guess the Language**: Identify the official language of the country.
-- **Guess the Location**: Identify the country based on its geographical coordinates.
-- **Guess the Capital**: Identify the capital city of the country.
-
 ## Features
 
 - User registration and login
@@ -62,6 +54,14 @@ Welcome to the **Guess Country Game**! This is a simple web-based game where use
 - Different game modes
 - Track user statistics
 - Responsive design
+
+## Game Modes
+
+- **Guess the Flag**: Identify the country based on its flag.
+- **Guess the Currency**: Identify the currency used by the country.
+- **Guess the Language**: Identify the official language of the country.
+- **Guess the Location**: Identify the country based on its geographical coordinates.
+- **Guess the Capital**: Identify the capital city of the country.
 
 ## Technologies Used
 
@@ -72,26 +72,8 @@ Welcome to the **Guess Country Game**! This is a simple web-based game where use
 - JavaScript (jQuery)
 - [RestCountries API](https://restcountries.com/)
 
-## Contributing
 
-1. Fork the repository.
-2. Create a new branch:
-    ```bash
-    git checkout -b feature-branch
-    ```
-3. Make your changes and commit them:
-    ```bash
-    git commit -m "Description of changes"
-    ```
-4. Push to the branch:
-    ```bash
-    git push origin feature-branch
-    ```
-5. Create a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+## Pictures
 
 ![image](https://github.com/user-attachments/assets/5538171f-6c08-4708-bec9-230fa256eec9)
 ![image](https://github.com/user-attachments/assets/417d1c37-19a3-4b53-ab36-d269af325e2d)
